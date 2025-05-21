@@ -1,9 +1,27 @@
-# Klasifikasi_Multilabel_Citra_Menggunakan_CNN-
+Proyek ini merupakan **tugas kuliah** yang berfokus pada **pengembangan model Convolutional Neural Network (CNN) dari awal (scratch)**. Dalam proyek ini, arsitektur jaringan CNN dirancang secara mandiri tanpa menggunakan model pra-latih (pretrained), serta dilakukan eksplorasi dan tuning terhadap berbagai hyperparameter untuk mengoptimalkan performa model.
 
-Repositori ini berisi **tugas kuliah** yang bertujuan untuk mengembangkan model **Convolutional Neural Network (CNN)** dari awal (*scratch*) dengan arsitektur mandiri dan eksplorasi berbagai **hyperparameter**, seperti jumlah hidden layer, epoch, batch size, fungsi aktivasi, learning rate, dan optimizer.
+📌 **Ruang lingkup proyek mencakup:**
 
-Model dilatih menggunakan dataset [Multi-Label Image Classification Dataset](https://www.kaggle.com/datasets/meherunnesashraboni/multi-label-image-classification-dataset/data) dari Kaggle, yang terdiri dari citra dengan **10 label**, yaitu:
-*motorcycle, truck, train, bus, cycle, sitar, ektara, flutes, tabla,* dan *harmonium*.
-Setiap gambar dapat memiliki lebih dari satu label, sehingga proyek ini juga berfokus pada penerapan **klasifikasi multilabel**.
+* Mendesain arsitektur CNN dari nol,
+* Melakukan tuning hyperparameter, termasuk:
 
+  * Jumlah hidden layer,
+  * Jumlah epoch,
+  * Ukuran batch (batch size),
+  * Fungsi aktivasi (activation function),
+  * Learning rate,
+  * Fungsi optimisasi (optimization function).
 
+📊 **Dataset:**
+Proyek ini menggunakan dataset dari Kaggle:
+🔗 [Multi-Label Image Classification Dataset](https://www.kaggle.com/datasets/meherunnesashraboni/multi-label-image-classification-dataset/data)
+
+Dataset ini merupakan kumpulan citra untuk **klasifikasi multilabel**, terdiri dari 10 kategori objek, yaitu:
+
+* **Kendaraan**: motorcycle, truck, train, bus, cycle
+* **Alat musik tradisional**: sitar, ektara, flutes, tabla, harmonium
+
+Setiap citra dapat memiliki lebih dari satu label, sehingga model perlu mampu mengenali beberapa objek sekaligus dalam satu gambar.
+
+🎯 **Tujuan:**
+Memahami cara kerja CNN dari tingkat dasar, serta mengembangkan kemampuan dalam menyusun arsitektur dan mengoptimasi hyperparameter secara sistematis pada tugas klasifikasi multilabel citra.
