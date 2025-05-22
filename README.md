@@ -1,4 +1,4 @@
-Proyek ini merupakan **tugas kuliah** yang berfokus pada **pengembangan model Convolutional Neural Network (CNN) dari awal (scratch)**. Dalam proyek ini, arsitektur jaringan CNN dirancang secara mandiri tanpa menggunakan model pra-latih (pretrained), serta dilakukan eksplorasi dan tuning terhadap berbagai hyperparameter untuk mengoptimalkan performa model.
+Proyek ini berfokus pada **pengembangan model Convolutional Neural Network (CNN) dari awal (scratch)**. Dalam proyek ini, arsitektur jaringan CNN dirancang secara mandiri tanpa menggunakan model pra-latih (pretrained), serta dilakukan eksplorasi dan tuning terhadap berbagai hyperparameter untuk mengoptimalkan performa model.
 
 📌 **Ruang lingkup proyek mencakup:**
 
